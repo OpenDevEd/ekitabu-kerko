@@ -1,19 +1,19 @@
 BABEL_DEFAULT_LOCALE = "en_GB"
 
-HOME_URL = "https://opendeved.net"
-HOME_TITLE = "Open Development & Education"
+HOME_URL = "https://ekitabu.com"
+HOME_TITLE = "Ekitabu"
 
 [kerko.meta]
 
-title = "Evidence Library – Open Development & Education"
-google_analytics_id = "UA-169419325-2"
+title = "Evidence Library – Ekitabu"
+google_analytics_id = ""
 
 [kerko.link_groups]
 
 [[kerko.link_groups.breadcrumb_base]]
-text = "Open Development & Education"
+text = "Ekitabu"
 type = "url"
-url = "https://opendeved.net"
+url = "https://ekitabu.com"
 
 [[kerko.link_groups.breadcrumb_base]]
 text = "Evidence Library"
@@ -49,7 +49,7 @@ search = "search/search.html.jinja2"
 [kerko.zotero]
 
 locale = "en-GB"
-
+batch_size = 20
 # CAUTION: The URL's query string (after the '?') must be changed after any edit
 # to the CSL style, otherwise zotero.org might still use a previously cached
 # version of the file.
@@ -71,45 +71,45 @@ enabled = false
 [kerko.facets.item_type]
 enabled = false
 
-[kerko.facets.featured]
-enabled = true
-type = "collection"
-collection_key = "JUDM2WBF"
-filter_key = "featured"
-title = "Featured publisher"
-weight = 10
-initial_limit = 15
-initial_limit_leeway = 5
+# [kerko.facets.featured]
+# enabled = true
+# type = "collection"
+# collection_key = "JUDM2WBF"
+# filter_key = "featured"
+# title = "Featured publisher"
+# weight = 10
+# initial_limit = 15
+# initial_limit_leeway = 5
 
-[kerko.facets.pubtype]
-enabled = true
-type = "collection"
-collection_key = "NEH6ARC4"
-filter_key = "pubtype"
-title = "Publication type"
-weight = 20
-initial_limit = 5
-initial_limit_leeway = 2
+# [kerko.facets.pubtype]
+# enabled = true
+# type = "collection"
+# collection_key = "NEH6ARC4"
+# filter_key = "pubtype"
+# title = "Publication type"
+# weight = 20
+# initial_limit = 5
+# initial_limit_leeway = 2
 
-[kerko.facets.theme]
-enabled = true
-type = "collection"
-collection_key = "QK8NXPKZ"
-filter_key = "theme"
-title = "Theme"
-weight = 30
-initial_limit = 10
-initial_limit_leeway = 2
+# [kerko.facets.theme]
+# enabled = true
+# type = "collection"
+# collection_key = "QK8NXPKZ"
+# filter_key = "theme"
+# title = "Theme"
+# weight = 30
+# initial_limit = 10
+# initial_limit_leeway = 2
 
-[kerko.facets.location]
-enabled = true
-type = "collection"
-collection_key = "94GNF2EB"
-filter_key = "location"
-title = "Location"
-weight = 50
-initial_limit = 5
-initial_limit_leeway = 2
+# [kerko.facets.location]
+# enabled = true
+# type = "collection"
+# collection_key = "94GNF2EB"
+# filter_key = "location"
+# title = "Location"
+# weight = 50
+# initial_limit = 5
+# initial_limit_leeway = 2
 
 [kerko.performance]
 
@@ -126,45 +126,44 @@ x_prefix = 0
 
 # footer
 [footer]
-contactUsButtonLink = "https://opendeved.net/contact/"
+contactUsButtonLink = "https://www.ekitabu.com/contact"
 [[footer.links]]
 text = "Privacy Policy"
-url = "https://opendeved.net/privacy-policy/"
+url = "https://www.ekitabu.com/privacy-policy"
 [[footer.links]]
 text = "Terms of Service"
-url = "https://opendeved.net/terms-of-service/"
+url = "https://www.ekitabu.com/terms-of-service"
 
 # contact
 [[footer.contact.items]]
 field = "Email"
-value = "support@opendeved.net"
+value = "support@ekitabu.com"
 [[footer.contact.items]]
 field = "Phone"
-value = "+1-123-456-7890"
+value = "+254 740 524629"
 [[footer.contact.items]]
 field = "Office Address"
-value = "123 Creativity Lane, Designville"
+value = """Rainbow Tower, 5th Floor
+32 Muthithi Road, Westlands
+Nairobi, Kenya"""
 
 # navbar
 [navbar]
 [[navbar.items]]
 text = "About"
-url = "https://opendeved.net/about/"
+url = "https://www.ekitabu.com/about"
 [[navbar.items]]
-text = "Programmes"
-url = "https://opendeved.net/programmes/"
+text = "Programs"
+url = "https://www.ekitabu.com/programs"
 # [[navbar.items]]
 # text = "Evidence Library"
 # url = "/"
 [[navbar.items]]
-text = "Partners"
-url = "https://opendeved.net/partners/"
+text = "Content"
+url = "https://www.ekitabu.com/content"
 [[navbar.items]]
-text = "Blog"
-url = "https://opendeved.net/blog/"
-[[navbar.items]]
-text = "Jobs"
-url = "https://opendeved.net/jobs/"
+text = "Impact"
+url = "https://www.ekitabu.com/impact"
 # [[navbar.items]]
 # text = "Contact Us"
 # url = "https://opendeved.net/contact-us/"
