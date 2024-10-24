@@ -14830,11 +14830,11 @@ html {
 
 .navbar .nav-link:hover, .navbar .nav-link:focus {
   color: #e68124;
-  border-bottom-color: #e68124;
+  border-bottom-color: #ed1c24;
 }
 
 .navbar .nav-item.active .nav-link {
-  border-bottom-color: #e68124;
+  border-bottom-color: #ed1c24;
 }
 
 .navbar-brand .brand-logo {

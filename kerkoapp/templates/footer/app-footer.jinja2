@@ -5,8 +5,8 @@
 {%- block app_footer %}
 <div class="text-center pt-3 pb-3" style="color: var(--foreground);">
     {{ _('Powered by {zotero} and {kerko}.').format(
-    zotero='<a href="https://zotero.org">Zotero</a>',
-    kerko='<a href="https://github.com/whiskyechobravo/kerko">Kerko</a>') }}
+    zotero='<a href="https://zotero.org" style="color: var(--primary);">Zotero</a>',
+    kerko='<a href="https://github.com/whiskyechobravo/kerko" style="color: var(--primary);">Kerko</a>') }}
 </div>
 <footer class="footer py-4">
     <div class="container pt-2">
@@ -14,10 +14,10 @@
             <div class="company-info">
                 <a class="d-block footer-brand-icon" href="{{ config.HOME_URL }}">
                     {%- if theme == 'dark' %}
-                    <img src="{{ url_for('static', filename='dist/images/opendeved-logo-light.png') }}"
+                    <img src="{{ url_for('static', filename='dist/images/ekitabu-logo-light.png') }}"
                         alt="{{ config.HOME_TITLE }}" width="190px">
                     {%- else %}
-                    <img src="{{ url_for('static', filename='dist/images/opendeved-logo-dark.png') }}"
+                    <img src="{{ url_for('static', filename='dist/images/ekitabu-logo-dark.png') }}"
                         alt="{{ config.HOME_TITLE }}" width="190px">
                     {%- endif %}
                 </a>

@@ -16,14 +16,17 @@
     font-size: $nav-link-font-size;
     font-weight: $nav-link-font-weight;
     letter-spacing: 0.8px;
+
     @include media-breakpoint-up(lg) {
       padding: $nav-link-padding-y 0;
       margin-left: $nav-link-padding-x / 1.5;
       margin-right: $nav-link-padding-x / 1.5;
+
       &:first-child {
         margin-left: 0;
       }
     }
+
     @include media-breakpoint-down(lg) {
       display: flex;
       justify-content: center;
@@ -37,25 +40,28 @@
     margin-top: 3px;
     text-align: left;
     white-space: nowrap;
+
     @include media-breakpoint-up(lg) {
       padding: 0 !important;
       margin-top: 0;
       display: inline-block;
     }
+
     @include hover-focus {
       color: $primary;
-      border-bottom-color: $primary;
+      border-bottom-color: #ed1c24;
     }
   }
 
   .nav-item.active .nav-link {
-    border-bottom-color: $primary;
+    border-bottom-color: #ed1c24;
   }
 }
 
 .navbar-brand {
   .brand-logo {
     width: 140px;
+
     @include media-breakpoint-up(lg) {
       width: 150px;
     }
@@ -84,6 +90,7 @@
   margin-top: $navbar-padding-y;
   margin-left: 0;
   margin-right: 0;
+
   @include media-breakpoint-up(lg) {
     padding: 0;
     margin-top: 0;
@@ -96,13 +103,16 @@
 .brand-title {
   font-family: $headings-font-family;
   font-size: 1.25rem;
+
   @include media-breakpoint-up(lg) {
     font-size: $navbar-brand-font-size;
   }
+
   font-weight: $headings-font-weight;
   line-height: 1.25;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+
   @include hover() {
     text-decoration: none;
   }
